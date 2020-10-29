@@ -71,8 +71,12 @@ Let's go through step by step instructions to setup a GoQuorum node with Raft co
        "eip155Block": 0,
        "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
        "eip158Block": 0,
-       "maxCodeSize": 35,
-       "maxCodeSizeChangeBlock" : 0,
+       "maxCodeSizeConfig": [
+         {
+         "block": 0,
+         "size": 35
+         }
+       ],
        "isQuorum": true
      },
      "difficulty": "0x0",
